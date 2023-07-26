@@ -9,10 +9,10 @@ public class User2
     private Integer id;
     private String name;
     
-    public User() {
+    public User2() {
     }
     
-    public User(final Integer id, final String name) {
+    public User2(final Integer id, final String name) {
         this.id = id;
         this.name = name;
     }
