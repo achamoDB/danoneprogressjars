@@ -4,7 +4,7 @@
 
 package com.danone2.library;
 
-public class User
+public class User2
 {
     private Integer id;
     private String name;
