@@ -2,17 +2,17 @@
 // Decompiled by Procyon v0.5.36
 // 
 
-package com.danone2.library;
+package com.danone.library;
 
-public class User2
+public class User
 {
     private Integer id;
     private String name;
     
-    public User2() {
+    public User() {
     }
     
-    public User2(final Integer id, final String name) {
+    public User(final Integer id, final String name) {
         this.id = id;
         this.name = name;
     }
