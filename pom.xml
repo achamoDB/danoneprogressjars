@@ -51,27 +51,27 @@
           </execution>
         </executions>
       </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-install-plugin</artifactId>
+        <version>3.0.0-M1</version>
+        <executions>
+          <execution>
+            <id>install-local-jar</id>
+            <goals>
+              <goal>install-file</goal>
+            </goals>
+            <configuration>
+              <file>src/main/resources/progress.jar</file>
+              <groupId>com.danone</groupId>
+              <artifactId>sample</artifactId>
+              <version>1.0</version>
+              <packaging>jar</packaging>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
     </plugins>
-    <plugin>
-      <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-install-plugin</artifactId>
-      <version>3.0.0-M1</version>
-      <executions>
-        <execution>
-          <id>install-local-jar</id>
-          <goals>
-            <goal>install-file</goal>
-          </goals>
-          <configuration>
-            <file>src/main/resources/progress.jar</file>
-            <groupId>com.danone</groupId>
-            <artifactId>sample</artifactId>
-            <version>1.0</version>
-            <packaging>jar</packaging>
-          </configuration>
-        </execution>
-      </executions>
-    </plugin>
   </build>
 </project>
 
