@@ -2,7 +2,7 @@
 // Decompiled by Procyon v0.5.36
 // 
 
-package com.progress.open4gl;
+package com.progressx.open4gl;
 
 public class Holder
 {
